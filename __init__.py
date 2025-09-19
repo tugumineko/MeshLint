@@ -6,9 +6,7 @@ bl_info = {
     "blender": (4, 2, 0),
     "version": (0, 1, 0),
     "description": 'MeshLint is like spell-checking for your Meshes',
-    "warning": '',
-    "doc_url": '',
-    "tracker_url": '',
+    "doc_url": 'https://github.com/tugumineko/MeshLint',
     "support": 'COMMUNITY',
     "category": 'Mesh'
 }

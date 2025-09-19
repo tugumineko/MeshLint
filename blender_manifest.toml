@@ -8,6 +8,7 @@ name = "MeshLint"
 version = "0.1.0"
 tagline = "MeshLint is like spell-checking for your Meshes"
 maintainer = "Community"
+website = "https://github.com/tugumineko/MeshLint"
 # Supported types: "add-on", "theme"
 type = "add-on"
 
@@ -28,11 +29,9 @@ blender_version_min = "4.2.0"
 license = [
     "SPDX:GPL-3.0-or-later",
 ]
+
 # Optional: required by some licenses.
-# copyright = [
-#   "2002-2024 Developer Name",
-#   "1998 Company Name",
-# ]
+copyright = ["2012 rking"]
 
 # Optional list of supported platforms. If omitted, the extension will be available in all operating systems.
 # platforms = ["windows-x64", "macos-arm64", "linux-x64"]
@@ -70,8 +69,9 @@ license = [
 [build]
 paths_exclude_pattern = [
   "__pycache__/",
-  "**/test/",
+    "**/test/",
   "**/test/**",
+  "testblends/",
   "/*.zip",
   "/*.blend*",
 ]
